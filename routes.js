@@ -8,7 +8,7 @@ const validationMiddleware = require('validation');
 router.post('/blacklist',
   [
     check('From', 'phone number is required').not().isEmpty(),
-    check('Message', 'Mesaage is required').not().isEmpty()
+    check('Message', 'Message is required').not().isEmpty()
   ],
   validationMiddleware,
   controller.add_Blacklist
