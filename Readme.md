@@ -1,6 +1,6 @@
 # BlackList
 
-## Introduction
+## Description
 
 This project involves creating a backend application using Node.js, Express and Mongoose to process users' unsubscribe requests via SMS.
 ## Features
