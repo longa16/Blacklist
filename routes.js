@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { check } = require('express-validator');
-const controller = require('controller');
-const validationMiddleware = require('validation');
+const controller = require('./controller');
+const validationMiddleware = require('./validation');
 
 
 router.post('/blacklist',
